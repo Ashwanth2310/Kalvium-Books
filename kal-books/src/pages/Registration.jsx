@@ -34,17 +34,6 @@ export default function RegForm() {
 
         <span>{errors.firstName?.message}</span>
       
-        <input
-          id="last-name"
-          className="form-field"
-          type="text"
-          placeholder="Last Name"
-          {...register('lastName',{required:"Last Name is required!"})}
-          
-        />
-        
-        <span>{errors.lastName?.message}</span>
-
 
         <input
           id="email"
@@ -70,6 +59,19 @@ export default function RegForm() {
         
         <span>{errors.password?.message}</span>
 
+        <input
+          id="Password"
+          className="form-field"
+          type="password"
+          placeholder="Confirm Password"
+          {...register('password',{required:"Password is required!", 
+          minLength:{value:4,message:"Password must be more than 4 characters"},
+          maxLength:{value:20, message:"Password cannot be more than 20 characters"}})}
+          
+        />
+        
+        <span>{errors.password?.message}</span>
+    
         <button className="form-field" type="submit">
           🎊 Register 🎊
         </button>
