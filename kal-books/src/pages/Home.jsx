@@ -16,7 +16,7 @@ function Home() {
         setFilteredData(res.data.books);
       })
       .catch(err => {
-        console.log("Error fetching books:", err);
+        console.log("Couldnt find your book :(", err);
       });
   }, []);
 
