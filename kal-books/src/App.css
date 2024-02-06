@@ -12,7 +12,7 @@ body {
   color: rgb(190, 180, 180);
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
   gap: 2rem;
   padding: 0 1rem;
 }
@@ -47,4 +47,9 @@ body {
 
 .nav li:hover {
   background-color: #000000;
+}
+
+.nav input[type="text"] {
+  width: 300px; 
+  margin: 0 auto; 
 }

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import {useForm} from "react-hook-form";
 import "./RegistartionForm.css";
+import "../Header"
+import Header from "../Header";
 
 export default function RegForm() {
 
@@ -17,6 +19,8 @@ export default function RegForm() {
   console.log(errors.email)
 
   return (
+    <>
+    <Header/>
     <div className="form-container">
       <form className="register-form" onSubmit={handleSubmit(onSubmit)}>
 
@@ -77,5 +81,6 @@ export default function RegForm() {
         </button>
       </form>
     </div>
+    </>
   );
 }

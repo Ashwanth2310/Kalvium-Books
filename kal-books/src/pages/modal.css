@@ -1,0 +1,15 @@
+.book-details {
+    display: flex;
+  }
+  
+  .book-image {
+    flex: 0 0 auto;
+  }
+  
+  .book-image img {
+    width: 200px; 
+  }
+  
+  .book-info {
+    padding-left: 20px;
+  }
