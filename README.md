@@ -1,3 +1,3 @@
 Ashwanth R
 
-OUTPUT : [Click here](https://kalviumbooks-ashwanth.netlify.app)
+ [Click here](https://kalviumbooks-ashwanth.netlify.app) to view the output.
