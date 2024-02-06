@@ -18,7 +18,7 @@ export default function Header({ setFilteredBooks }) {
       <ul>
         <input
           type="text"
-          placeholder="Search books..."
+          placeholder="Search books"
           value={searchTerm}
           onChange={handleSearch}
         />
