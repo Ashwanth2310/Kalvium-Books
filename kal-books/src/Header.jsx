@@ -7,7 +7,6 @@ export default function Header({ setFilteredBooks }) {
   const handleSearch = (e) => {
     const term = e.target.value.toLowerCase();
     setSearchTerm(term);
-    // Pass the search term back to the parent component (App.jsx or Home.jsx) to handle filtering
     setFilteredBooks(term);
   };
 

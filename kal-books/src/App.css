@@ -4,24 +4,30 @@
 
 body {
   margin: 0;
-  background-color: #000000;
+  background-color: #d0a96e;
+  background-image: url("./back.jpg");
 }
 
 .nav {
-  background-color: #474545;
-  color: rgb(190, 180, 180);
+  background-color: #f18900;
+  color: rgb(241, 137, 39);
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
   padding: 0 1rem;
+  border-radius: 10px;
+  background-image: url("./navbackground.png");
 }
 .container {
   margin: 1rem;
   text-align: center;
 }
 .site-title {
-  font-size: 3rem;
+  font-size: 2rem;
+  font-family: 'Handjet', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Preahvihear', sans-serif;
 }
 
 .nav ul {
@@ -39,6 +45,9 @@ body {
   display: flex;
   align-items: center;
   padding: .20rem;
+  font-family: 'Handjet', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Preahvihear', sans-serif;
 }
 
 .nav li.active {
