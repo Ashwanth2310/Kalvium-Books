@@ -41,6 +41,7 @@ function Home() {
       {filteredData.map((item) => (
         <div key={item.id} onClick={() => handleBookClick(item)} className="book-container">
           <img src={item.imageLinks.smallThumbnail} alt={item.title} className="book-cover" />
+          <p style={{ color: 'white', fontWeight: 'bold',fontFamily: 'Handjet',fontFamily: 'Poppins' }}>$0 (Free)</p> {/* Change the color and make it bold */}
         </div>
       ))}
       {selectedBook && (
